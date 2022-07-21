@@ -49,6 +49,7 @@ basicC + geom_bar(stat="identity",position="dodge")
 basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=Sex)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
+When considering the frequency-based ggplot bar charts computed, it appears that there are about 1800 living females in the study, and around 1400 living males.  However, more male persons were reported as dead than females, even though there were hundreds more females in the study as a whole.  Regarding the proportion based barchart, a majority of the reported deaths were indicated as male.  Further studying these proportions requires a numerical analysis.  
 
 
 
