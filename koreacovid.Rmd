@@ -71,11 +71,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-
-
-
-
-
+Running the Chi-Square test confirmed the frequencies that we had estimated by running our graphical and numerical tests (see "Observed Counts").  However, the clearest explanation of our results comes in the form of the Fisher Exact test, which generated a p-value of .0009 for the data provided.  Furthermore, the odds ratio (2.3) can be interpreted as the notion that males are 2.3 times more likely to die from COVID, according to the results of this study.
 
 
 ## Conclusions
