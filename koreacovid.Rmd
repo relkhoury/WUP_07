@@ -75,4 +75,5 @@ Running the Chi-Square test confirmed the frequencies that we had estimated by r
 
 
 ## Conclusions
+In summary, this assignment ventured to explain whether or not death by COVID was independent of sex, in a study of individuals from South Korea.  We sought to explain this from graphical, numerical, and inferential stances.  Our proportion-based barcharts showed a variation in proportion among those who died (favoring men), and this was furthered by our numerical results, which provided the exact percentages to fortify that claim.  Finally, our inferential results provided the exact counts of the prior tests, but also yielded a low p-value, helping to certify that our results had not purely occurred through by chance.  Our odds ratio (2.3) was the single most compelling piece of data generated, helping to reinforce the alternative hypothesis that dying is actually dependent (at least, in part) on sex.
 
