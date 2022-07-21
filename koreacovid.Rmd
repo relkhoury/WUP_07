@@ -53,13 +53,19 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 When considering the frequency-based ggplot bar charts computed, it appears that there are about 1800 livin females in the study, and around 1400 living males.  However, more male persons were reported as dead than females, even though there were hundreds more females in the study as a whole.  Regarding the proportion based barchart, a majority of the reported deaths were indicated as male.  Further studying these proportions requires a numerical analysis.  
 
 
-
-
-
-
-
   
 ## Numerical results
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+The first table created examines the data in terms of totals of result.  It seems that a solid majority of those reported "dead" as a result were males (64%).  In analyzing the second table, which was created on the basis of total of gender, a higher proportion of men (3%) were reported dead, as compared to only 1.4% of females.  While inferential results are required to assess the statistical significance of these results, it seems that there MAY BE some type of relationship between death and sex in this study, when entertaining the data accumulated thus far.  
+
+
+
+
+
 
 
 ## Inferential results 
